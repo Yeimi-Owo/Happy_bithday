@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!-- Nombre de la pagina web -->
+  <title>CHOI CHOI!</title>
+  <!-- Traer a los estilo (styles.css) -->
+  <link rel="stylesheet" href="styles/flexbox-center-container.css" media="all">
+  <link rel="stylesheet" href="styles/system-fonts.css" media="all">
+  <link rel="stylesheet" href="styles/style.css" media="all">
+  <!-- logo uwu -->
+  <link rel="icon" href="img/cake.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    
+    <!-- Countdown Personal  -->
+  <canvas id=c></canvas>
+    <!-- Libreria JS Confetti -->
+  <canvas id="confetti"></canvas>
+  <div class="container" id="count">
+    <h1 id="head">Cuenta regresiva:</h1>
+    <ul>
+      <!-- agregado 4 datos tiempo/horario -->
+      <li><span id="day"></span>dias</li>
+      <li><span id="hour"></span>horas</li>
+      <li><span id="minute"></span>mins</li>
+      <li><span id="second"></span>segs</li>
+    </ul>
+  </div>
+  <!-- codigo del regalo -->
+  <div id="merrywrap" class="merrywrap">
+    <canvas id="snowfall"></canvas>
+    <div class="giftbox">
+      <div class="cover">
+        <div></div>
+      </div>
+      <div class="box"></div>
+    </div>
+    
+  </div>
+  <div id="floating-message" class="floating-message">
+    <span id="close-button">&times;</span>
+    <p>¿Deseas seguir viendo?</p>
+    <p>Presiona la "X" o vamos al siguiente enlace uu</p>
+    <a href="https://www.ejemplo.com" target="_blank">HAZ CLICK</a>
+</div>
+
+  
+</body>
+<!-- Llamado de las librerias uu  -->
+<script src="scripts/confetti.min.js" charset="utf-8"></script>
+<script src="scripts/index.js" charset="utf-8"></script>
+
+</html>
