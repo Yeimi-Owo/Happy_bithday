@@ -83,7 +83,7 @@ x = setInterval(function() {
     hh = h / 2, // Mitad Altura de P
     opts = {
       //Llamar los atributos del nombre
-      strings: ['CHOII CHOII', '21 AÑOS', 'QUERIDA', '21 AÑOS WUAAA', 'AMIGA MIA','HERMOSA','BELLA','FELIIIZ' ,'CUMPLEAÑOS', config.name, 'MIL BESOS',' MIL ABRAZOS', '(Ɔ ˘⌣˘)♥(˘⌣˘ C)', 'LA AMOO MUCHO'],
+      strings: ['CHOII CHOII', '21 AÑOS', 'QUERIDA', '21 AÑOS WUAA', 'AMIGA MIA','HERMOSA','BELLA','FELIIIZ' ,'CUMPLEAÑOS', config.name, 'MIL BESOS',' MIL ABRAZOS', '(Ɔ ˘⌣˘)♥(˘⌣˘ C)', 'LA AMOOO'],
     
       charSize: 30, //Tamaño de la letra P
       charSpacing: 30, //Distancia entre las letras P
